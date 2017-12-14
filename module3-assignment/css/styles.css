@@ -12,19 +12,21 @@ body {
 	border-radius: 0;
 }	
 #main-page-title {
-    text-align: center;
     font-size: 1.8em;
     color: #e6e6e6; /*#444422*/
 }
-#main-page-section{
+.row section{
     background-color: #d1d1e0; /*#b3b3cc;*/
-    height: 1000px;
+    height: 700px;
     font-weight: bold;
-}
-#main-page-section h2{
- 	text-align: center;
- 	font-size: 1.5em;
+    padding: 0px 10px 10px 10px;
+    border: 1px solid #e6e6e6;
+    overflow: hidden;
+    margin-bottom: 30px;
 
+}
+.row section h3{
+ 	text-align: center;
 }
 .navbar-toggle {
 	margin-bottom: 0;
